@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OrdersViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="OrderItemCell" id="LYV-cj-fBS" customClass="OrderItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="248"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="125" height="248"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="depositphotos_35186513-Sample-grunge-blue-round-stamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="9fp-Lt-Ki8">
+                        <rect key="frame" x="5" y="10" width="115" height="115"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="115" id="1q6-8T-kiJ"/>
+                            <constraint firstAttribute="width" constant="115" id="C4O-Dl-D6s"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMi-nJ-5Ca">
+                        <rect key="frame" x="5" y="133" width="115" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="Qyb-g5-bMf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9fp-Lt-Ki8" secondAttribute="trailing" constant="5" id="9SN-9g-mII"/>
+                <constraint firstItem="YMi-nJ-5Ca" firstAttribute="leading" secondItem="LYV-cj-fBS" secondAttribute="leading" constant="5" id="9qM-oc-WAd"/>
+                <constraint firstItem="9fp-Lt-Ki8" firstAttribute="top" secondItem="LYV-cj-fBS" secondAttribute="top" constant="10" id="NoN-dm-OTV"/>
+                <constraint firstItem="YMi-nJ-5Ca" firstAttribute="top" secondItem="9fp-Lt-Ki8" secondAttribute="bottom" constant="8" id="cnw-Eq-eDl"/>
+                <constraint firstItem="9fp-Lt-Ki8" firstAttribute="leading" secondItem="LYV-cj-fBS" secondAttribute="leading" constant="5" id="wVu-I5-Fu7"/>
+                <constraint firstAttribute="trailing" secondItem="YMi-nJ-5Ca" secondAttribute="trailing" constant="5" id="zXH-Ki-rvb"/>
+            </constraints>
+            <size key="customSize" width="50" height="79"/>
+            <connections>
+                <outlet property="productImageView" destination="9fp-Lt-Ki8" id="rLA-Lg-Qbf"/>
+                <outlet property="titleLabel" destination="YMi-nJ-5Ca" id="RFB-ao-L3j"/>
+            </connections>
+            <point key="canvasLocation" x="-153.5" y="16"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="depositphotos_35186513-Sample-grunge-blue-round-stamp.jpg" width="1024" height="1024"/>
+    </resources>
+</document>

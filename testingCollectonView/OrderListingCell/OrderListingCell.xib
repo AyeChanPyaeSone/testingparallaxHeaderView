@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="orderListingCell" destination="jyU-70-eFH" id="L5I-nf-JyJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="OrderListingCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrderListingCell" rowHeight="510" id="jyU-70-eFH" customClass="OrderListingCell">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="510"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jyU-70-eFH" id="mPv-BL-nQq">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="509"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvY-Pt-uOq">
+                        <rect key="frame" x="13" y="18" width="411" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="YD2-Pb-HnZ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="zty-ZK-zZA">
+                        <rect key="frame" x="0.0" y="71" width="437" height="298"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="10" id="bqg-GP-hlV">
+                            <size key="itemSize" width="125" height="248"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="10" minY="0.0" maxX="10" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <color key="backgroundColor" red="0.96862745098039216" green="0.97254901960784312" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="ZvY-Pt-uOq" firstAttribute="top" secondItem="mPv-BL-nQq" secondAttribute="topMargin" constant="10" id="9EU-Ni-PML"/>
+                    <constraint firstItem="ZvY-Pt-uOq" firstAttribute="leading" secondItem="mPv-BL-nQq" secondAttribute="leading" constant="13" id="BOq-T3-eyZ"/>
+                    <constraint firstAttribute="trailing" secondItem="ZvY-Pt-uOq" secondAttribute="trailing" constant="13" id="IF0-Y5-4Zt"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="orderNumberLabel" destination="ZvY-Pt-uOq" id="dba-nK-Lq8"/>
+                <outlet property="productCollectionView" destination="zty-ZK-zZA" id="d6A-7r-Mln"/>
+            </connections>
+            <point key="canvasLocation" x="298.5" y="112"/>
+        </tableViewCell>
+    </objects>
+</document>

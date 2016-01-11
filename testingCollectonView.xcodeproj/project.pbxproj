@@ -15,6 +15,14 @@
 		D25DD3241C43A1740084691A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25DD3221C43A1740084691A /* LaunchScreen.storyboard */; };
 		D25DD32F1C43A1740084691A /* testingCollectonViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DD32E1C43A1740084691A /* testingCollectonViewTests.m */; };
 		D25DD33A1C43A1740084691A /* testingCollectonViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DD3391C43A1740084691A /* testingCollectonViewUITests.m */; };
+		D25DD34A1C43B1ED0084691A /* OrderItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DD3481C43B1ED0084691A /* OrderItemCell.m */; };
+		D25DD34B1C43B1ED0084691A /* OrderItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25DD3491C43B1ED0084691A /* OrderItemCell.xib */; };
+		D25DD34E1C43B1F50084691A /* OrderListingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D25DD34D1C43B1F50084691A /* OrderListingCell.xib */; };
+		D25DD3501C43B2020084691A /* OrderListingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DD34F1C43B2020084691A /* OrderListingCell.m */; };
+		D25DD3521C43B39A0084691A /* depositphotos_35186513-Sample-grunge-blue-round-stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D25DD3511C43B39A0084691A /* depositphotos_35186513-Sample-grunge-blue-round-stamp.jpg */; };
+		D25DD3551C43B9F10084691A /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DD3541C43B9F10084691A /* ParallaxHeaderView.m */; };
+		D25DD3581C43B9F70084691A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = D25DD3571C43B9F70084691A /* UIImage+ImageEffects.m */; };
+		D25DD35A1C43BADA0084691A /* 2668.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D25DD3591C43BADA0084691A /* 2668.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,18 @@
 		D25DD3351C43A1740084691A /* testingCollectonViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testingCollectonViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D25DD3391C43A1740084691A /* testingCollectonViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testingCollectonViewUITests.m; sourceTree = "<group>"; };
 		D25DD33B1C43A1740084691A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25DD3471C43B1ED0084691A /* OrderItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderItemCell.h; path = testingCollectonView/OrderItemCell/OrderItemCell.h; sourceTree = "<group>"; };
+		D25DD3481C43B1ED0084691A /* OrderItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderItemCell.m; path = testingCollectonView/OrderItemCell/OrderItemCell.m; sourceTree = "<group>"; };
+		D25DD3491C43B1ED0084691A /* OrderItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OrderItemCell.xib; path = testingCollectonView/OrderItemCell/OrderItemCell.xib; sourceTree = "<group>"; };
+		D25DD34C1C43B1F50084691A /* OrderListingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderListingCell.h; path = testingCollectonView/OrderListingCell/OrderListingCell.h; sourceTree = "<group>"; };
+		D25DD34D1C43B1F50084691A /* OrderListingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OrderListingCell.xib; path = testingCollectonView/OrderListingCell/OrderListingCell.xib; sourceTree = "<group>"; };
+		D25DD34F1C43B2020084691A /* OrderListingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderListingCell.m; path = testingCollectonView/OrderListingCell/OrderListingCell.m; sourceTree = "<group>"; };
+		D25DD3511C43B39A0084691A /* depositphotos_35186513-Sample-grunge-blue-round-stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "depositphotos_35186513-Sample-grunge-blue-round-stamp.jpg"; sourceTree = "<group>"; };
+		D25DD3531C43B9F10084691A /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		D25DD3541C43B9F10084691A /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
+		D25DD3561C43B9F70084691A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		D25DD3571C43B9F70084691A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		D25DD3591C43BADA0084691A /* 2668.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2668.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +105,13 @@
 				D25DD32D1C43A1740084691A /* testingCollectonViewTests */,
 				D25DD3381C43A1740084691A /* testingCollectonViewUITests */,
 				D25DD3121C43A1740084691A /* Products */,
+				D25DD3471C43B1ED0084691A /* OrderItemCell.h */,
+				D25DD3481C43B1ED0084691A /* OrderItemCell.m */,
+				D25DD3491C43B1ED0084691A /* OrderItemCell.xib */,
+				D25DD34C1C43B1F50084691A /* OrderListingCell.h */,
+				D25DD34D1C43B1F50084691A /* OrderListingCell.xib */,
+				D25DD34F1C43B2020084691A /* OrderListingCell.m */,
+				D25DD3511C43B39A0084691A /* depositphotos_35186513-Sample-grunge-blue-round-stamp.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +128,11 @@
 		D25DD3131C43A1740084691A /* testingCollectonView */ = {
 			isa = PBXGroup;
 			children = (
+				D25DD3591C43BADA0084691A /* 2668.jpg */,
+				D25DD3561C43B9F70084691A /* UIImage+ImageEffects.h */,
+				D25DD3571C43B9F70084691A /* UIImage+ImageEffects.m */,
+				D25DD3531C43B9F10084691A /* ParallaxHeaderView.h */,
+				D25DD3541C43B9F10084691A /* ParallaxHeaderView.m */,
 				D25DD3171C43A1740084691A /* AppDelegate.h */,
 				D25DD3181C43A1740084691A /* AppDelegate.m */,
 				D25DD31A1C43A1740084691A /* ViewController.h */,
@@ -243,7 +275,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25DD34E1C43B1F50084691A /* OrderListingCell.xib in Resources */,
 				D25DD3241C43A1740084691A /* LaunchScreen.storyboard in Resources */,
+				D25DD35A1C43BADA0084691A /* 2668.jpg in Resources */,
+				D25DD3521C43B39A0084691A /* depositphotos_35186513-Sample-grunge-blue-round-stamp.jpg in Resources */,
+				D25DD34B1C43B1ED0084691A /* OrderItemCell.xib in Resources */,
 				D25DD3211C43A1740084691A /* Assets.xcassets in Resources */,
 				D25DD31F1C43A1740084691A /* Main.storyboard in Resources */,
 			);
@@ -270,7 +306,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D25DD3551C43B9F10084691A /* ParallaxHeaderView.m in Sources */,
 				D25DD31C1C43A1740084691A /* ViewController.m in Sources */,
+				D25DD3581C43B9F70084691A /* UIImage+ImageEffects.m in Sources */,
+				D25DD34A1C43B1ED0084691A /* OrderItemCell.m in Sources */,
+				D25DD3501C43B2020084691A /* OrderListingCell.m in Sources */,
 				D25DD3191C43A1740084691A /* AppDelegate.m in Sources */,
 				D25DD3161C43A1740084691A /* main.m in Sources */,
 			);

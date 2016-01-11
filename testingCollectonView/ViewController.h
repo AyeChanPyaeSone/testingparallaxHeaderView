@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OrderListingCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController
 
+@property (nonatomic, assign) IBOutlet OrderListingCell *orderListingCell;
 
 @end
 
